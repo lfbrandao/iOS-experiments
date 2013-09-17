@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ZeegaViewController : UIViewController
+- (IBAction)configureMessage:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
 
 @end
