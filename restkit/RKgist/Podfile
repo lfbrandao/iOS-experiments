@@ -7,6 +7,6 @@ pod 'RestKit/Search', '~> 0.20.0rc'
 
 # Import Expecta for Testing
 target :test do
-  link_with :RKGistTests
+  link_with :RKgistTests
   pod 'Expecta', '0.2.1'
 end
