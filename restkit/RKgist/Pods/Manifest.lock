@@ -23,6 +23,7 @@ PODS:
   - TransitionKit (1.1.1)
 
 DEPENDENCIES:
+  - AFNetworking
   - Expecta (= 0.2.1)
   - RestKit (~> 0.20.0rc)
   - RestKit/Search (~> 0.20.0rc)
